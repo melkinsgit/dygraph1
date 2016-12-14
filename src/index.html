@@ -40,16 +40,18 @@
                 {
                     rollPeriod: 1
                 }
-            )
+            );
 
-            new Dygraph(div, "./data/goog-hi-low.csv", {
-                legend: 'always',
-                title: 'Hi, Low & Close',
-                showRoller: true,
-                rollPeriod: 14,
-                customBars: true,
-                ylabel: 'Price ($)'
-            });
+            new Dygraph(div, "./data/goog-hi-low.csv",
+                {
+                    legend: 'always',
+                    title: 'Hi, Low & Close',
+                    showRoller: true,
+                    rollPeriod: 14,
+                    customBars: true,
+                    ylabel: 'Price ($)'
+                }
+            );
 
         </script>
 
